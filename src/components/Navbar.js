@@ -1,10 +1,8 @@
 function Navbar() {
   return (
-    <nav className="navbar navbar-light bg-secondary">
+    <nav className="navbar text-black bg-secondary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Navbar
-        </a>
+          Billy Mott
       </div>
     </nav>
   );
