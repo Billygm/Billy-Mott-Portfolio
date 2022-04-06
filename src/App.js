@@ -1,9 +1,10 @@
 import { useState } from "react";
-import Mainbio from "./components/Mainbio";
 import Navbar from "./components/Navbar";
+import Mainbio from "./components/Mainbio";
 import PortfolioGrid from "./components/PortfolioGrid";
-import Resume from "./components/Resume";
 import Contact from "./components/Contact"
+import Resume from "./components/Resume";
+import Footer from "./components/Footer"
 
 function App() {
   const [view, setView] = useState("bio");
@@ -15,6 +16,7 @@ function App() {
       {view === "portfolio" && <PortfolioGrid />}
       {view === "contact" && <Contact />}
       {view === "resume" && <Resume />}
+      <Footer />
     </>
   );
 }
