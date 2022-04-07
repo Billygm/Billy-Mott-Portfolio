@@ -9,14 +9,23 @@ import Footer from "./components/Footer"
 function App() {
   const [view, setView] = useState("bio");
 
+  const styles = {
+    display: "flex",
+    flexDirection: "column",
+    minHeight: "100vh",
+    background: "#00243d",
+  }
+
   return (
     <>
-      <Navbar view={view} setView={setView} />
-      {view === "bio" && <Mainbio />}
-      {view === "portfolio" && <PortfolioGrid />}
-      {view === "contact" && <Contact />}
-      {view === "resume" && <Resume />}
-      <Footer />
+      <div style={styles}>
+        <Navbar view={view} setView={setView} />
+        {view === "bio" && <Mainbio />}
+        {view === "portfolio" && <PortfolioGrid />}
+        {view === "contact" && <Contact />}
+        {view === "resume" && <Resume />}
+        <Footer />
+      </div>
     </>
   );
 }

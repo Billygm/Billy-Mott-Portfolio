@@ -7,10 +7,7 @@ const styles = {
   footer: {
     background: "#00243d",
     color: "#75A3A5",
-    position: "fixed",
-    left: 0,
-    bottom: 0,
-    right: 0,
+    marginTop: "auto",
   },
   primary: {
     background: "#00243d",
@@ -26,49 +23,51 @@ const styles = {
 
 const Footer = () => {
   return (
-    <div style={styles.footer} className="d-flex justify-content-center p-3">
-      <a
-        href="https://github.com/Billygm"
-        target="_blank"
-        rel="noreferrer"
-        className="btn mx-3"
-        style={styles.primary}
-      >
-        <img
-          src={githubLogo}
-          style={styles.img}
-          className="card-img-top"
-          alt=""
-        />
-      </a>
-      <a
-        href="https://www.linkedin.com/in/william-mott-93a30a223/"
-        target="_blank"
-        rel="noreferrer"
-        className="btn mx-3"
-        style={styles.primary}
-      >
-        <img
-          src={linkedinLogo}
-          style={styles.img}
-          className="card-img-top"
-          alt=""
-        />
-      </a>
-      <a
-        href="https://stackoverflow.com/users/17146289/billy-mott?tab=profile"
-        target="_blank"
-        rel="noreferrer"
-        className="btn mx-3"
-        style={styles.primary}
-      >
-        <img
-          src={stackoverflowLogo}
-          style={styles.img}
-          className="card-img-top"
-          alt=""
-        />
-      </a>
+    <div style={styles.footer} >
+      <div className="d-flex justify-content-center p-3">
+        <a
+          href="https://github.com/Billygm"
+          target="_blank"
+          rel="noreferrer"
+          className="btn mx-3"
+          style={styles.primary}
+        >
+          <img
+            src={githubLogo}
+            style={styles.img}
+            className="card-img-top"
+            alt=""
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/william-mott-93a30a223/"
+          target="_blank"
+          rel="noreferrer"
+          className="btn mx-3"
+          style={styles.primary}
+        >
+          <img
+            src={linkedinLogo}
+            style={styles.img}
+            className="card-img-top"
+            alt=""
+          />
+        </a>
+        <a
+          href="https://stackoverflow.com/users/17146289/billy-mott?tab=profile"
+          target="_blank"
+          rel="noreferrer"
+          className="btn mx-3"
+          style={styles.primary}
+        >
+          <img
+            src={stackoverflowLogo}
+            style={styles.img}
+            className="card-img-top"
+            alt=""
+          />
+        </a>
+      </div>
     </div>
   );
 };
