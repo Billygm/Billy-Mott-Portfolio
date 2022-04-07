@@ -11,7 +11,7 @@ const styles = {
     color: "#00243d",
   },
   accent: {
-    background: "#003D38",
+    background: "#476c6d",
   },
 };
 
