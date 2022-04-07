@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/billy-mott-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/billy-mott-portfolio/static/js/main.5dbc8c31.js",
+    "main.css": "/billy-mott-portfolio/static/css/main.38be36b0.css",
+    "main.js": "/billy-mott-portfolio/static/js/main.151835cb.js",
     "static/js/787.568b8352.chunk.js": "/billy-mott-portfolio/static/js/787.568b8352.chunk.js",
-    "static/media/logo.svg": "/billy-mott-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Sweata-Weatha.png": "/billy-mott-portfolio/static/media/Sweata-Weatha.f060b5789dd320bdc417.png",
+    "static/media/HobbyHubLogin.png": "/billy-mott-portfolio/static/media/HobbyHubLogin.07c908b1c6a7f4f264c0.png",
+    "static/media/image0.jpeg": "/billy-mott-portfolio/static/media/image0.93e2fa9c1c086e379680.jpeg",
+    "static/media/resumeScreenshot.png": "/billy-mott-portfolio/static/media/resumeScreenshot.75ff79929b7920af7772.png",
+    "static/media/Day-Scheduler.png": "/billy-mott-portfolio/static/media/Day-Scheduler.cb2c584f6a6d21b5ef36.png",
+    "static/media/Billy_Mott_Resume.pdf": "/billy-mott-portfolio/static/media/Billy_Mott_Resume.ed103999a7f64026b716.pdf",
+    "static/media/logo-stackoverflow.png": "/billy-mott-portfolio/static/media/logo-stackoverflow.7e5f48233cf84ee6b56d.png",
+    "static/media/weatherDashboard.png": "/billy-mott-portfolio/static/media/weatherDashboard.3a158f09545756d994a7.png",
+    "static/media/tech-blog.png": "/billy-mott-portfolio/static/media/tech-blog.1fe6211d10fdec4b88fd.png",
+    "static/media/Quiz-start-page.png": "/billy-mott-portfolio/static/media/Quiz-start-page.52b88ccd7c426e053208.png",
+    "static/media/LI-In-Bug.png": "/billy-mott-portfolio/static/media/LI-In-Bug.aa85ca998a85b64985e1.png",
     "index.html": "/billy-mott-portfolio/index.html",
-    "main.073c9b0a.css.map": "/billy-mott-portfolio/static/css/main.073c9b0a.css.map",
-    "main.5dbc8c31.js.map": "/billy-mott-portfolio/static/js/main.5dbc8c31.js.map",
+    "main.38be36b0.css.map": "/billy-mott-portfolio/static/css/main.38be36b0.css.map",
+    "main.151835cb.js.map": "/billy-mott-portfolio/static/js/main.151835cb.js.map",
     "787.568b8352.chunk.js.map": "/billy-mott-portfolio/static/js/787.568b8352.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.5dbc8c31.js"
+    "static/css/main.38be36b0.css",
+    "static/js/main.151835cb.js"
   ]
 }
