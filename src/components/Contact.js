@@ -12,7 +12,7 @@ const styles = {
 };
 const Contact = () => {
   return (
-    <p>Please email me at Billy.g.m@gmail.com</p>
+    <p>Please email me at <a href="mailto:Billy.g.m@gmail.com">Billy.g.m@gmail.com</a></p>
     // <form style={styles.primary} class="m-3">
     //   <fieldset>
     //     <legend>Contact Me</legend>
